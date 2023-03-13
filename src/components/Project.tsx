@@ -21,7 +21,7 @@ const Project = (props: IProps) => {
         <div className='grid md:grid-cols-12 gap-2 grid-cols-1 '>
             <div className={`col-span-6 order-2 ${isOdd ? "md:order-2" : "md:order-1"} `}>
                 <h1 className='text-xl font-bold'>{project.title}</h1>
-                <p className='mt-3 text-gray-700 '>{project.description}</p>
+                <p className='mt-3 text-gray-700 text-justify'>{project.description}</p>
                 <div className='flex mt-4 text-sm flex-wrap'>
                     {project.stacks.map(stack => {
                         return <div className='mr-1 mt-1 px-3 py-1 rounded-lg bg-gray-100'>{stack}</div>
@@ -45,7 +45,7 @@ const Project = (props: IProps) => {
             <div className={`col-span-6 order-1  ${isOdd ? "md:order-1" : "md:order-2"}`}>
                 <Carousel  showThumbs={false} >
                     {project.images.map((image) => {
-                        return <img className='w-full h-fu object-cover h-50 ' src={image} />
+                        return <img className='w-full  object-cover h-60 md:h-80' src={image} />
                     })}
                 </Carousel>
             </div>
