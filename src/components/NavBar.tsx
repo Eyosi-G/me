@@ -50,7 +50,7 @@ const NavBar = () => {
             <div className='flex items-center justify-between'>
                 <div className='flex items-center'>
                     <div className='bg-[#facf0f] h-10 w-10 sm:h-14 sm:w-14 rounded-full overflow-hidden'>
-                        <img src="/images/me.png" className='h-full w-full  object-cover object-top' />
+                        <img src="images/me.png" className='h-full w-full  object-cover object-top' />
                     </div>
                     <h1 className='ml-5'>Eyosiyas Girma</h1>
                 </div>
@@ -76,7 +76,7 @@ const NavBar = () => {
             </div>
             {openNav && <ul className='md:hidden flex flex-col items-end space-y-5  mt-5 list-none'>
                 {links}
-                <a target="_blank" href='/files/Eyosiyas_Girma_CV.pdf' className='border border-[#facf0f] text-[#facf0f] px-9 py-3 uppercase  font-bold rounded-sm flex items-center space-x-2' >
+                <a target="_blank" href='files/Eyosiyas_Girma_CV.pdf' className='border border-[#facf0f] text-[#facf0f] px-9 py-3 uppercase  font-bold rounded-sm flex items-center space-x-2' >
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
                     </svg>

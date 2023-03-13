@@ -2,9 +2,9 @@
   {
     "title": "Everything Addis",
     "images": [
-      "/images/everything-addis/image_1.png",
-      "/images/everything-addis/image_2.png",
-      "/images/everything-addis/image_3.png"
+      "images/everything-addis/image_1.png",
+      "images/everything-addis/image_2.png",
+      "images/everything-addis/image_3.png"
     ],
     "githubLink": "https://github.com/Eyosi-G/etege_client_web",
     "deployedLink": "",
@@ -14,10 +14,10 @@
   {
     "title": "Online Tracking and Scheduling for City Bus",
     "images": [
-      "/images/lion-bus/image_1.png",
-      "/images/lion-bus/image_2.png",
-      "/images/lion-bus/image_3.png",
-      "/images/lion-bus/image_4.png"
+      "images/lion-bus/image_1.png",
+      "images/lion-bus/image_2.png",
+      "images/lion-bus/image_3.png",
+      "images/lion-bus/image_4.png"
     ],
     "githubLink": "https://github.com/Eyosi-G/corporate_ethiopia_django",
     "deployedLink": "",
@@ -27,9 +27,9 @@
   {
     "title": "Dereja Clone",
     "images": [
-      "/images/dereja-clone/image_1.png",
-      "/images/dereja-clone/image_2.png",
-      "/images/dereja-clone/image_3.png"
+      "images/dereja-clone/image_1.png",
+      "images/dereja-clone/image_2.png",
+      "images/dereja-clone/image_3.png"
     ],
     "githubLink": "https://github.com/Eyosi-G/etege_client_web",
     "deployedLink": "https://eyosi-g.github.io/dereja_clone",
@@ -39,12 +39,12 @@
   {
     "title": "Corporate Ethiopia",
     "images": [
-      "/images/corporate-ethiopia/image_1.png",
-      "/images/corporate-ethiopia/image_2.png",
-      "/images/corporate-ethiopia/image_3.png",
-      "/images/corporate-ethiopia/image_4.png",
-      "/images/corporate-ethiopia/image_4.png",
-      "/images/corporate-ethiopia/image_5.png"
+      "images/corporate-ethiopia/image_1.png",
+      "images/corporate-ethiopia/image_2.png",
+      "images/corporate-ethiopia/image_3.png",
+      "images/corporate-ethiopia/image_4.png",
+      "images/corporate-ethiopia/image_4.png",
+      "images/corporate-ethiopia/image_5.png"
     ],
     "githubLink": "https://github.com/Eyosi-G/corporate_ethiopia_django",
     "deployedLink": "",
