@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Everything Addis",
+    "images": [
+      "/images/everything-addis/image_1.png",
+      "/images/everything-addis/image_2.png",
+      "/images/everything-addis/image_3.png"
+    ],
+    "githubLink": "https://github.com/Eyosi-G/etege_client_web",
+    "deployedLink": "",
+    "stacks": ["React", "Nest.js", "Typescript", "Postgres", "Rabitmq"],
+    "description": "A fullstack e-commerce web application where admin can manage categories and products, accept and process orders and customers can add products to a cart, make an order and get notified by email about the status of their order. It is also integrated with telegram channel thus avoiding posting the product separately."
+  },
+  {
+    "title": "Online Tracking and Scheduling for City Bus",
+    "images": [
+      "/images/lion-bus/image_1.png",
+      "/images/lion-bus/image_2.png",
+      "/images/lion-bus/image_3.png",
+      "/images/lion-bus/image_4.png"
+    ],
+    "githubLink": "https://github.com/Eyosi-G/corporate_ethiopia_django",
+    "deployedLink": "",
+    "stacks": ["React", "Node.js", "MongoDB", "Flutter", "OpenStreetMap", "OSRM", "Socket.io", "Cypress", "Jest"],
+    "description": "An online bus scheduling system that allows a bus provider company to generate schedules from previous data and allows commuters to track and search buses in real-time."
+  },
+  {
+    "title": "Dereja Clone",
+    "images": [
+      "/images/dereja-clone/image_1.png",
+      "/images/dereja-clone/image_2.png",
+      "/images/dereja-clone/image_3.png"
+    ],
+    "githubLink": "https://github.com/Eyosi-G/etege_client_web",
+    "deployedLink": "https://eyosi-g.github.io/dereja_clone",
+    "stacks": ["React", "Typescript", "TailwindCSS"],
+    "description": "A clone of dereja.com. The project is still ongoing."
+  },
+  {
+    "title": "Corporate Ethiopia",
+    "images": [
+      "/images/corporate-ethiopia/image_1.png",
+      "/images/corporate-ethiopia/image_2.png",
+      "/images/corporate-ethiopia/image_3.png",
+      "/images/corporate-ethiopia/image_4.png",
+      "/images/corporate-ethiopia/image_4.png",
+      "/images/corporate-ethiopia/image_5.png"
+    ],
+    "githubLink": "https://github.com/Eyosi-G/corporate_ethiopia_django",
+    "deployedLink": "",
+    "stacks": ["Django", "TailwindCSS"],
+    "description": "A job listing web application built with django. Admin can manage companies and jobs and users can search, filter and view jobs."
+  }
+]

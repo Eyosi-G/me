@@ -8,3 +8,7 @@
     list-style: revert;
   }
 }
+
+/* .active  {
+  @apply  text-[#facf0f]
+} */
