@@ -4,7 +4,7 @@ const NavBar = () => {
     return (
         <nav className='flex items-center justify-between uppercase px-20 py-6 bg-white font-bold'>
             <h1 className=''>Eyosiyas Girma</h1>
-            <ul className='flex items-center space-x-9'>
+            <ul className='flex items-center space-x-9 list-none'>
                 <li>Home</li>
                 <li>About</li>
                 <li>Projects</li>
