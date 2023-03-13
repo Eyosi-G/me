@@ -5,9 +5,9 @@ const Hero = () => {
     return (
         <section className='px-10 md:px-20 flex py-40' id='home'>
             <div className='hidden mr-10 h-full md:flex flex-col justify-center items-center' >
-                <a target="_blank" href='https://www.linkedin.com/in/eyosiyas-g/' ><img className='w-7 h-7' src="/icons/linkedin.svg" /></a>
-                <a target="_blank" href='https://github.com/eyosi-g' className='mt-5'><img className='w-7 h-7' src="/icons/github.svg" /></a>
-                <a target="_blank" href='https://eyosi-g.medium.com/' className='mt-5'><img className='w-7 h-7' src="/icons/medium.svg" /></a>
+                <a target="_blank" href='https://www.linkedin.com/in/eyosiyas-g/' ><img className='w-7 h-7' src="icons/linkedin.svg" /></a>
+                <a target="_blank" href='https://github.com/eyosi-g' className='mt-5'><img className='w-7 h-7' src="icons/github.svg" /></a>
+                <a target="_blank" href='https://eyosi-g.medium.com/' className='mt-5'><img className='w-7 h-7' src="icons/medium.svg" /></a>
             </div>
             <div>
                 <h2 className='text-xl'>Hi, my name</h2>

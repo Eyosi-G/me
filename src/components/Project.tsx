@@ -30,7 +30,7 @@ const Project = (props: IProps) => {
                 <div className='flex mt-4 space-x-3  '>
                     {
                         project.githubLink ? <a href={project.githubLink}>
-                            <img src="/icons/github.svg" className='h-6 w-6' />
+                            <img src="icons/github.svg" className='h-6 w-6' />
                         </a> : null
                     }
                     {
