@@ -29,7 +29,7 @@ const AboutMe = () => {
                     </div>
                 </div>
 
-                <div className='relative w-fit order-1 md:order-2 -top-20'>
+                <div className='relative w-fit order-1 md:order-2 md:-top-20'>
                     <img src="/images/me.png" className='w-full md:w-80 h-80 relative z-10 object-cover rounded-md ' />
                 </div>
             </div>
