@@ -47,7 +47,7 @@
       "images/corporate-ethiopia/image_5.png"
     ],
     "githubLink": "https://github.com/Eyosi-G/corporate_ethiopia_django",
-    "deployedLink": "",
+    "deployedLink": "https://corporateethiopia.com",
     "stacks": ["Django", "TailwindCSS"],
     "description": "A job listing web application built with django. Admin can manage companies and jobs and users can search, filter and view jobs."
   }
