@@ -50,7 +50,7 @@ const NavBar = () => {
             <div className='flex items-center justify-between'>
                 <div className='flex items-center'>
                     <div className='bg-[#facf0f] h-10 w-10 sm:h-14 sm:w-14 rounded-full overflow-hidden'>
-                        <img src="images/me.png" className='h-full w-full  object-cover object-top' />
+                        <img src={ process.env.PUBLIC_URL + "/images/me.png"} className='h-full w-full  object-cover object-top' />
                     </div>
                     <h1 className='ml-5'>Eyosiyas Girma</h1>
                 </div>
