@@ -26,9 +26,15 @@ const Hero = () => {
             src={process.env.PUBLIC_URL + "/icons/medium.svg"}
           />
         </a>
+        <a target="_blank" href="https://t.me/eyosi_g" className="mt-5">
+          <img
+            className="w-7 h-7"
+            src={process.env.PUBLIC_URL + "/icons/telegram.png"}
+          />
+        </a>
       </div>
       <div className="relative z-20 ">
-        <h2 className="text-xl">Hi, my name</h2>
+        <h2 className="text-xl">Hi, My name is</h2>
         <h1 className="text-6xl font-bold  mt-2">Eyosiyas Girma .</h1>
         <p className="text-xl md:w-[50%] mt-2 md:mt-5 text-gray-700">
           I’m a software engineer specializing in building (and occasionally

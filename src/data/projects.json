@@ -1,13 +1,47 @@
 [
   {
+    "title": "Talguu",
+    "images": [
+      "images/talguu/image_1.png",
+      "images/talguu/image_2.png",
+      "images/talguu/image_3.png",
+      "images/talguu/image_4.png",
+      "images/talguu/image_5.png",
+      "images/talguu/image_6.png"
+    ],
+    "type": "IMAGE",
+    "githubLink": "",
+    "deployedLink": "https://www.talguu.com",
+    "stacks": ["React.js", "Node.js", "MySQL", "Redis", "FMPEG", "Antmedia"],
+    "description": "A video streaming and selling web based system. I worked as a lead software engineer and designed the system architecture. I utitlized multiple technologies to achieve proper functionality as well as to meet non-functional requirements. The system generates HLS videos to minimize bandwidth usage and integrated payment systems such as paypal, paymongo and authorizenet."
+  },
+  {
+    "title": "Scratch Off Bingo",
+    "images": [
+      "images/bingo/image_1.jpg",
+      "images/bingo/image_2.jpg",
+      "images/bingo/image_3.jpg",
+      "images/bingo/image_4.jpg",
+      "images/bingo/image_5.jpg",
+      "images/bingo/image_6.jpg",
+      "images/bingo/image_7.jpg",
+      "images/bingo/image_8.jpg",
+      "images/bingo/image_9.jpg"
+    ],
+    "type": "IMAGE",
+    "githubLink": "",
+    "deployedLink": "",
+    "stacks": ["Flutter", "Node.js", "MySQL", "Redis"],
+    "description": "A side project to convert a paper based scratch off ticket to app that allows users to recharge their balance and buy a virtual scratch off ticket."
+  },
+  {
     "title": "Virtual Keno System",
     "images": [],
     "type": "VIDEO",
     "videoLink": "https://www.youtube.com/embed/XhnStHsFgIY",
     "githubLink": "",
     "deployedLink": "",
-    "stacks": [
-    ],
+    "stacks": [],
     "description": "A full fledged virtual KENO system. I created everything from scratch from designing the user interface to architecting the system. The system has overall 6 components. I also wrote a thermal printer wrapper to communicate with a thermal printer directly. It has also a mobile application for scanning tickets for redemption. Company registration and user management is also included in the project.  It is meticulously designed and scalable."
   },
   {

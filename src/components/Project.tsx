@@ -1,6 +1,6 @@
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
+import Carousel from "./Carousel";
 
 interface IProject {
   images: string[];
@@ -20,22 +20,25 @@ interface IProps {
 const Project = (props: IProps) => {
   const { isOdd, project } = props;
   return (
-    <div className="grid md:grid-cols-12 gap-2 grid-cols-1 ">
+    <div className="grid md:grid-cols-12 gap-4 grid-cols-1 ">
       <div
         className={`col-span-6 order-2 ${isOdd ? "md:order-2" : "md:order-1"} `}
       >
-        <h1 className="text-xl font-bold">{project.title}</h1>
+        <h1 className="text-xl font-bold">
+          <span className=" capitalize"> {project.title}</span>
+        </h1>
+
         <p className="mt-3 text-gray-700 text-justify">{project.description}</p>
-        <div className="flex mt-4 text-sm flex-wrap">
+        <div className="flex mt-4 text-sm flex-wrap gap-x-1">
           {project.stacks.map((stack) => {
             return (
-              <div className="mr-1 mt-1 px-3 py-1 rounded-lg bg-gray-100">
+              <div className=" mt-1 px-3 py-1 rounded-lg bg-gray-100">
                 {stack}
               </div>
             );
           })}
         </div>
-        <div className="flex mt-4 space-x-3  ">
+        <div className="flex mt-4 gap-x-3  ">
           {project.githubLink ? (
             <a href={project.githubLink}>
               <img
@@ -85,16 +88,17 @@ const Project = (props: IProps) => {
             isOdd ? "md:order-1" : "md:order-2"
           }`}
         >
-          <Carousel showThumbs={false}>
+          <Carousel images={project.images} />
+          {/* <Carousel showThumbs={false}>
             {project.images.map((image) => {
               return (
                 <img
-                  className="w-full  object-cover h-60 md:h-80"
+                  className="w-full  object-scale-down h-60 md:h-80"
                   src={process.env.PUBLIC_URL + "/" + image}
                 />
               );
             })}
-          </Carousel>
+          </Carousel> */}
         </div>
       )}
     </div>
