@@ -1,20 +1,23 @@
 [
   {
-    "title": "Talguu",
+    "title": "ETH-TG",
     "images": [
-      "images/talguu/image_1.png",
-      "images/talguu/image_2.png",
-      "images/talguu/image_3.png",
-      "images/talguu/image_4.png",
-      "images/talguu/image_5.png",
-      "images/talguu/image_6.png"
+      "images/eth-tg/image_1.png",
+      "images/eth-tg/image_2.png",
+      "images/eth-tg/image_3.png",
+      "images/eth-tg/image_4.png",
+      "images/eth-tg/image_5.png",
+      "images/eth-tg/image_6.png",
+      "images/eth-tg/image_7.png",
+      "images/eth-tg/image_8.png"
     ],
     "type": "IMAGE",
     "githubLink": "",
-    "deployedLink": "https://www.talguu.com",
-    "stacks": ["React.js", "Node.js", "MySQL", "Redis", "FMPEG", "Antmedia"],
-    "description": "A video streaming and selling web based system. I worked as a lead software engineer and designed the system architecture. I utitlized multiple technologies to achieve proper functionality as well as to meet non-functional requirements. The system generates HLS videos to minimize bandwidth usage and integrated payment systems such as paypal, paymongo and authorizenet."
+    "deployedLink": "https://ethtg.com/",
+    "stacks": ["React.js", "Node.js", "MySQL",  "Redis"],
+    "description": "I designed and developed an end-to-end project called ETH-TG, the first Telegram advertising platform in Ethiopia. Advertisers can publish their ads under specific categories and price limits on our platform. Channel owners who have integrated their Telegram channels with our system can easily select ads from the listing and publish them to their channels in just a few steps, ensuring that the advertisements are posted correctly and that payment transactions are completed seamlessly."
   },
+  
   {
     "title": "Scratch Off Bingo",
     "images": [
@@ -43,6 +46,38 @@
     "deployedLink": "",
     "stacks": [],
     "description": "A full fledged virtual KENO system. I created everything from scratch from designing the user interface to architecting the system. The system has overall 6 components. I also wrote a thermal printer wrapper to communicate with a thermal printer directly. It has also a mobile application for scanning tickets for redemption. Company registration and user management is also included in the project.  It is meticulously designed and scalable."
+  },
+  {
+    "title": "Gezuyad",
+    "images": [
+      "images/gezuyad/image_1.png",
+      "images/gezuyad/image_2.png",
+      "images/gezuyad/image_3.png",
+      "images/gezuyad/image_4.png",
+      "images/gezuyad/image_5.png",
+      "images/gezuyad/image_6.png"
+    ],
+    "type": "IMAGE",
+    "githubLink": "",
+    "deployedLink": "https://gezuyad.com/",
+    "stacks": ["React.js", "Node.js", "MySQL"],
+    "description": "A website that displays information regarding Architectural Design and Contract Administration Studio."
+  },
+  {
+    "title": "Talguu",
+    "images": [
+      "images/talguu/image_1.png",
+      "images/talguu/image_2.png",
+      "images/talguu/image_3.png",
+      "images/talguu/image_4.png",
+      "images/talguu/image_5.png",
+      "images/talguu/image_6.png"
+    ],
+    "type": "IMAGE",
+    "githubLink": "",
+    "deployedLink": "https://www.talguu.com",
+    "stacks": ["React.js", "Node.js", "MySQL", "Redis", "FMPEG", "Antmedia"],
+    "description": "A video streaming and selling web based system. I worked as a lead software engineer and designed the system architecture. I utitlized multiple technologies to achieve proper functionality as well as to meet non-functional requirements. The system generates HLS videos to minimize bandwidth usage and integrated payment systems such as paypal, paymongo and authorizenet."
   },
   {
     "title": "Everything Addis",
