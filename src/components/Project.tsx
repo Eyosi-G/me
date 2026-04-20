@@ -91,6 +91,7 @@ const Project = (props: IProps) => {
             {project.images.map((image) => {
               return <div className="relative">
                 <img
+                  alt="project"
                   className="w-full  object-scale-down h-60 md:h-80 "
                   src={process.env.PUBLIC_URL + "/" + image}
                 />
