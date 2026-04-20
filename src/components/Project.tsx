@@ -67,7 +67,7 @@ const Project = (props: IProps) => {
           ) : null}
         </div>
       </div>
-      {project.type == "VIDEO" && (
+      {project.type === "VIDEO" && (
         <div
           className={`col-span-6 order-1  ${isOdd ? "md:order-1" : "md:order-2"
             }`}
