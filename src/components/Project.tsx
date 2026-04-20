@@ -41,7 +41,7 @@ const Project = (props: IProps) => {
         <div className="flex mt-4 gap-x-3  ">
           {project.githubLink ? (
             <a href={project.githubLink}>
-              <img
+              <img alt=""
                 src={process.env.PUBLIC_URL + "/icons/github.svg"}
                 className="h-6 w-6"
               />
@@ -90,8 +90,7 @@ const Project = (props: IProps) => {
           <Carousel arrows infinite autoplay={{ dotDuration: true }} >
             {project.images.map((image) => {
               return <div className="relative">
-                <img
-                  alt="project"
+                <img alt=""
                   className="w-full  object-scale-down h-60 md:h-80 "
                   src={process.env.PUBLIC_URL + "/" + image}
                 />
@@ -102,7 +101,7 @@ const Project = (props: IProps) => {
           {/* <Carousel showThumbs={false}>
             {project.images.map((image) => {
               return (
-                <img
+                <img alt=""
                   className="w-full  object-scale-down h-60 md:h-80"
                   src={process.env.PUBLIC_URL + "/" + image}
                 />

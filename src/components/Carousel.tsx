@@ -20,7 +20,7 @@ const Carousel = (props: IProps) => {
   return (
     <div>
       <div>
-        <img
+        <img alt=""
           className="w-full  object-scale-down h-60 md:h-80 "
           src={process.env.PUBLIC_URL + "/" + props.images[index]}
         />

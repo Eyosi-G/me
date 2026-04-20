@@ -47,7 +47,7 @@ const AboutMe = () => {
         </div>
 
         <div className="relative w-fit order-1 md:order-2 md:-top-20">
-          <img
+          <img alt=""
             src={process.env.PUBLIC_URL + "/images/me.png"}
             className="w-full md:w-80 h-80 relative z-10 object-cover rounded-md "
           />

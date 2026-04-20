@@ -9,25 +9,25 @@ const Hero = () => {
     >
       <div className="hidden mr-10 h-full md:flex flex-col justify-center items-center">
         <a target="_blank" href="https://www.linkedin.com/in/eyosiyas-g/">
-          <img
+          <img alt=""
             className="w-7 h-7"
             src={process.env.PUBLIC_URL + "/icons/linkedin.svg"}
           />
         </a>
         <a target="_blank" href="https://github.com/eyosi-g" className="mt-5">
-          <img
+          <img alt=""
             className="w-7 h-7"
             src={process.env.PUBLIC_URL + "/icons/github.svg"}
           />
         </a>
         <a target="_blank" href="https://eyosi-g.medium.com/" className="mt-5">
-          <img
+          <img alt=""
             className="w-7 h-7"
             src={process.env.PUBLIC_URL + "/icons/medium.svg"}
           />
         </a>
         <a target="_blank" href="https://t.me/eyosi_g" className="mt-5">
-          <img
+          <img alt=""
             className="w-7 h-7"
             src={process.env.PUBLIC_URL + "/icons/telegram.png"}
           />
