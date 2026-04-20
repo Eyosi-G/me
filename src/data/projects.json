@@ -1,5 +1,23 @@
 [
   {
+    "title": "Netib Loyalty",
+    "images": [
+      "images/netib/image_1.png",
+      "images/netib/image_2.png",
+      "images/netib/image_3.png",
+      "images/netib/image_4.png",
+      "images/netib/image_5.png",
+      "images/netib/image_6.png"
+    ],
+    "type": "IMAGE",
+    "githubLink": "",
+    "deployedLink": "https://netib.app",
+    "stacks": [
+      "Flutter"
+    ],
+    "description": "A digital loyalty system available for any businesses to use without charge."
+  },
+  {
     "title": "ETH-TG",
     "images": [
       "images/eth-tg/image_1.png",
@@ -14,10 +32,10 @@
     "type": "IMAGE",
     "githubLink": "",
     "deployedLink": "https://ethtg.com/",
-    "stacks": ["React.js", "Node.js", "MySQL",  "Redis"],
+    "stacks": ["React.js", "Node.js", "MySQL", "Redis"],
     "description": "I designed and developed an end-to-end project called ETH-TG, the first Telegram advertising platform in Ethiopia. Advertisers can publish their ads under specific categories and price limits on our platform. Channel owners who have integrated their Telegram channels with our system can easily select ads from the listing and publish them to their channels in just a few steps, ensuring that the advertisements are posted correctly and that payment transactions are completed seamlessly."
   },
-  
+
   {
     "title": "Scratch Off Bingo",
     "images": [

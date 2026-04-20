@@ -1,7 +1,7 @@
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import Carousel from "./Carousel";
-
+// import Carousel from "./Carousel";
+import { Carousel } from "antd"
 interface IProject {
   images: string[];
   githubLink?: string;
@@ -69,9 +69,8 @@ const Project = (props: IProps) => {
       </div>
       {project.type == "VIDEO" && (
         <div
-          className={`col-span-6 order-1  ${
-            isOdd ? "md:order-1" : "md:order-2"
-          }`}
+          className={`col-span-6 order-1  ${isOdd ? "md:order-1" : "md:order-2"
+            }`}
         >
           <iframe
             className="w-full h-80"
@@ -84,11 +83,21 @@ const Project = (props: IProps) => {
       )}
       {project.type == "IMAGE" && (
         <div
-          className={`col-span-6 order-1  ${
-            isOdd ? "md:order-1" : "md:order-2"
-          }`}
+          className={`col-span-6 order-1  ${isOdd ? "md:order-1" : "md:order-2"
+            }`}
         >
-          <Carousel images={project.images} />
+          {/* <Carousel images={project.images} /> */}
+          <Carousel arrows infinite autoplay={{ dotDuration: true }} >
+            {project.images.map((image) => {
+              return <div className="relative">
+                <img
+                  className="w-full  object-scale-down h-60 md:h-80 "
+                  src={process.env.PUBLIC_URL + "/" + image}
+                />
+              </div>
+            })}
+          </Carousel>
+
           {/* <Carousel showThumbs={false}>
             {project.images.map((image) => {
               return (
