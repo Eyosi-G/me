@@ -1,7 +1,5 @@
-import React from 'react'
 import AboutMe from './components/AboutMe'
 import ContactMe from './components/ContactMe'
-import Footer from './components/Footer'
 import HangingEmail from './components/HangingEmail'
 import Hero from './components/Hero'
 import NavBar from './components/NavBar'

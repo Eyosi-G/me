@@ -81,7 +81,7 @@ const Project = (props: IProps) => {
           ></iframe>
         </div>
       )}
-      {project.type == "IMAGE" && (
+      {project.type === "IMAGE" && (
         <div
           className={`col-span-6 order-1  ${isOdd ? "md:order-1" : "md:order-2"
             }`}
